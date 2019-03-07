@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1542808565 source:c:\google drive\lessons\university\3rd semester\cs 201\homeworks\homework 1\parta\simplemac.cpp
+	"SimpleMAC.h"
+
+1542569154 c:\google drive\lessons\university\3rd semester\cs 201\homeworks\homework 1\parta\simplemac.h
+	<string>
+	"SimpleMusicAlbum.h"
+
+1542569168 c:\google drive\lessons\university\3rd semester\cs 201\homeworks\homework 1\parta\simplemusicalbum.h
+	<string>
+
+1542572825 source:c:\google drive\lessons\university\3rd semester\cs 201\homeworks\homework 1\parta\simplemusicalbum.cpp
+	"SimpleMusicAlbum.h"
+
+1542804266 source:c:\google drive\lessons\university\3rd semester\cs 201\homeworks\homework 1\parta\test.cpp
+	<iostream>
+	"SimpleMusicAlbum.h"
+	"SimpleMAC.h"
+

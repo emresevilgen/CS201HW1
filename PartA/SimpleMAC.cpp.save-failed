@@ -1,0 +1,46 @@
+#include "SimpleMAC.h"
+
+#include <string>
+using namespace std;
+
+MAC::MAC(){
+    musicAlbums = NULL;
+    noOfMusicAlbums = 0;
+}
+
+MAC::~MAC(){
+    if (noOfMusicAlbums > 0){
+        delete [] musicAlbums;
+    }
+}
+
+MAC::MAC(const MAC &macToCopy){
+    if (macToCopy.noOfMusicAlbums > 0) {
+            if (noOfMusicAlbums != macToCopy.noOfMusicAlbums)
+                musicAlbums = new MusicAlbum[noOfMusicAlbums];
+            for (int i = 0; i < macToCopy.noOfMusicAlbums; i++) {
+                musicAlbums [i] = macToCopy.musicAlbums[i];
+            }
+    }
+
+    if (noOfMusicAlbums != 0) {
+        noOfMusicAlbums = 0;
+        musicAlbums = NULL;
+    }
+}
+
+MAC::operator=(const MAC &right){
+
+}
+
+MAC::addMusicAlbum(){
+
+}
+
+MAC::removeMusicAlbum(){
+
+}
+
+MAC::getMusicAlbums(){
+
+}

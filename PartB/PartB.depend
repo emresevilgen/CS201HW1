@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1542815788 source:c:\google drive\lessons\university\3rd semester\cs 201\homeworks\homework 1\partb\mac.cpp
+	"MAC.h"
+
+1542807431 source:c:\google drive\lessons\university\3rd semester\cs 201\homeworks\homework 1\partb\musicalbum.cpp
+	"MusicAlbum.h"
+
+1542576145 source:c:\google drive\lessons\university\3rd semester\cs 201\homeworks\homework 1\partb\song.cpp
+	"Song.h"
+
+1542809310 source:c:\google drive\lessons\university\3rd semester\cs 201\homeworks\homework 1\partb\test.cpp
+	<iostream>
+	"MusicAlbum.h"
+	"MAC.h"
+
+1542807502 c:\google drive\lessons\university\3rd semester\cs 201\homeworks\homework 1\partb\musicalbum.h
+	<string>
+	"Song.h"
+
+1542576060 c:\google drive\lessons\university\3rd semester\cs 201\homeworks\homework 1\partb\song.h
+	<string>
+
+1542654266 c:\google drive\lessons\university\3rd semester\cs 201\homeworks\homework 1\partb\mac.h
+	<string>
+	"MusicAlbum.h"
+
