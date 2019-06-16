@@ -1,4 +1,4 @@
-# CS201HW1
+# CS201_HW1
 The First Homework of The CS 201 - Fundamental Structures of Computer Science I
 
 This is a music album collection system to store the song names of the
